@@ -1,0 +1,12 @@
+ <div style={{ backgroundColor: "#333333", width: "100%", height: "60px", marginTop: "50px" }} />
+            <div style={{ backgroundColor: "#333333", width: "100%", height: "60px" }} />
+            <div style={{ backgroundColor: "#555555", width: "100%", height: "60px" }} />
+            <div style={{ backgroundColor: "#222222", width: "100%", height: "60px" }} />
+
+            <button style={{ backgroundColor: "#e67e22" }}>Deneme</button>
+            <button style={{ backgroundColor: "#3498db" }}>Deneme</button>
+
+            <button style={{ backgroundColor: "#cccccc" }}>Deneme</button>
+            <button style={{ backgroundColor: "#666666" }}>Deneme</button>
+
+

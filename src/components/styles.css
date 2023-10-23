@@ -1,0 +1,166 @@
+.navbar {
+    width: "100%";
+    height: "55px";
+    background-color: #333333;
+    margin-top: 0;
+}
+
+.dropdown-toggle:hover {
+    cursor: pointer;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.custom-card {
+    width: 9rem;
+    text-align: start;
+    margin-right: px;
+
+}
+
+.custom-card-img {
+    min-height: 210px;
+    max-height: 210px;
+    min-width: 140px;
+    max-width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-title {
+    cursor: pointer;
+    font-family: 'Roboto Slab', sans;
+    line-height: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.keyword {
+    text-align: left;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #dddddd;
+    border-radius: 5px;
+    width: min-content;
+    height: 30px;
+}
+
+footer {
+    background-color: #333333;
+    height: 50px;
+}
+
+.my-search-button {
+    color: #3498db;
+    font-size: 20px;
+}
+
+.icon {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.search-input-container {
+    background-color: #ddd;
+    height: 50px;
+}
+
+
+.search-input {
+    height: 32px;
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ddd;
+
+}
+
+.search-input:hover {
+    border: 0px;
+}
+
+.search-button {
+    border-radius: 25px;
+    border: 0;
+    right: 0;
+    z-index: 1;
+    width: 80px;
+    height: 32px;
+    background-color: #3498db;
+}
+
+
+.custom-switch-button {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid #e67e22;
+    height: 35px;
+    width: 170px;
+}
+
+.switch-button {
+    position: absolute;
+    z-index: 0;
+    background-color: #e67e22;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 33px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+}
+
+.switch-button-dark {
+    position: absolute;
+    z-index: 0;
+    background-color: #e67e22;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 33px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.reviews-carousel-container {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 98%;
+    height: 300px;
+}
+
+.review-container {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
+
+.review_header {
+    margin: 8px 15px 8px 15px;
+}
+
+.avatar-img {
+    border-radius: 50%;
+}
+
+.change-item-btn {
+    color: #555;
+    font-size: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.person-img {
+    border-radius: 20px;
+}
+
+.detail-col {
+    margin: 0;
+    padding-left: 40px;
+    width: 70%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 16ch;
+}
+
+.expand {
+    color: #3498db;
+    cursor: pointer;
+}
+
+.expand:hover {
+    color: #008000;
+}
+
+
+.movie-carousel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.movie-carousel::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 10px;
+}
+
+.movie-carousel::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 10px;
+}
